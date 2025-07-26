@@ -44,11 +44,11 @@ Usage
 Start the server:
                         
     node server.js
-(By default, the server listens on port 5000. Change server.js for a different port.)
+(By default, the server listens on port 3000. Change server.js for a different port.)
 
 Open your browser and go to:
 
-    http://localhost:5000
+    http://localhost:3000
 Join the chat:
 
     Enter your username.
@@ -85,4 +85,8 @@ License
 
     Built with Node.js, Express, and Socket.IO. UI design is responsive and minimal for ease of demonstration.
 
-    Just save this as README.md in your project root. Let me know if you'd like any further customizations or deployment tips!
+    Just save this as README.md in your project root. Let me know if you'd like any further customizations or deployment tips!..
+
+OUTPUT:
+
+<img width="1911" height="1018" alt="Image" src="https://github.com/user-attachments/assets/976a5987-ace8-417b-a43b-2dd39f889228" />
