@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Chatroom</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Join Screen -->
+    <div class="screen join-screen active">
+      <div class="form">
+        <h2>Join Chatroom</h2>
+        <div class="form-input">
+          <label for="Username">Username</label>
+          <input type="text" id="Username" autocomplete="off" placeholder="Enter your username" />
+        </div>
+        <div class="form-input">
+          <button id="join-user">Join</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Screen -->
+    <div class="screen chat-screen">
+      <!-- Chatroom heading to show after joining -->
+      <h2 class="chatroom-heading">Chatroom</h2>
+
+      <button id="exit-chat" style="display: none;">Exit</button>
+      
+      <div class="messages">
+        <!-- Chat messages will be dynamically appended here -->
+      </div>
+      
+      <div class="typrbox">
+        <input type="text" id="message-input" autocomplete="off" placeholder="Type your message..." />
+        <button id="send-message">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Socket.IO client library -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- Your chat app JS -->
+  <script src="code.js"></script>
+</body>
+</html>
